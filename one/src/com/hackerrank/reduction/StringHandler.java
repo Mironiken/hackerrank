@@ -19,6 +19,7 @@ public class StringHandler {
 
         if ((countA == 0 && countB == 0) ^ (countA == 0 && countC == 0) ^ (countC == 0 && countB == 0)) return result;
         if ((countA % 2 == 0) & (countB % 2 == 0) & (countC % 2 == 0)) return 2;
+        if ((countA % 2 == 1) & (countB % 2 == 1) & (countC % 2 == 1)) return 2;
         else return 1;
     }
 
